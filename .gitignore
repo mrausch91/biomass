@@ -1,0 +1,52 @@
+# Data files and directories
+data/
+train/
+test/
+*.csv
+*.jpg
+*.jpeg
+*.png
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model outputs and submissions
+submission.csv
+*.pth
+*.pt
+*.ckpt
+*.model
+
+# Logs and outputs
+*.log
+*.out
+
+# Keep requirements.txt but ignore data CSVs
+!requirements.txt
+
